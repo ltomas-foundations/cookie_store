@@ -6,7 +6,7 @@ window.onload = function() {
         stripe.redirectToCheckout({
             items: [{sku: 'sku_FqGyB9WXthSDtB', quantity: 1}],
             successUrl: 'http://localhost:8000/success.html',
-            cancelUrl: 'http://localhost:8000/failure.html',
+            cancelUrl: 'http://localhost:8000/cancel.html',
         }).then(function (result) {
             console.log(result.error.message)
             });

@@ -1,4 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(226, 191, 147);
+}
+
 .cookies {
-    height: 50px;
-    width: 40px;
+    height: 100px;
+    width: 80px;
+    vertical-align: middle;
+}
+
+#checkout {
+    background-color: rgb(138, 179, 216);
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    font-size-adjust: inherit;
+    
 }
